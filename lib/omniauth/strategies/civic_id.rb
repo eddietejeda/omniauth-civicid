@@ -4,10 +4,10 @@ require "oauth2"
 
 module OmniAuth
   module Strategies
-    class Accela
+    class CivicID
       include OmniAuth::Strategy
 
-      option :name, 'accela'
+      option :name, 'civicid'
 
       option :client_options, {
         :site           => 'https://apis.accela.com/',
