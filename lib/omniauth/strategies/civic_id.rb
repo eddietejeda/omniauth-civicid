@@ -7,7 +7,7 @@ module OmniAuth
     class CivicID
       include OmniAuth::Strategy
 
-      option :name, 'civicid'
+      option :name, 'civic_id'
 
       option :client_options, {
         :site           => 'https://apis.accela.com/',
